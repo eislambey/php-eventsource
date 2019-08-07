@@ -41,13 +41,13 @@ Set a function that called when a message is received.
 ### connect(): void
 Connect to endpoint and receive messaages.
 
-## abort(): void
+### abort(): void
 Abort the connection and stop receiving messages.
 
-## setCurlOptions(array $options): void
+### setCurlOptions(array $options): void
 You can set any cURL options (such as cookies and headers) excluding `CURLOPT_WRITEFUNCTION`, `CURLOPT_NOPROGRESS`, `CURLOPT_PROGRESSFUNCTION`.
 
-See. https://www.php.net/manual/tr/function.curl-setopt.php
+See: https://www.php.net/manual/tr/function.curl-setopt.php
 
 ## LICENSE 
 The MIT License (MIT). Please see [LICENSE](./LICENSE) for more information.
