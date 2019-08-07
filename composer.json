@@ -1,0 +1,27 @@
+{
+    "name": "eislambey/eventsource",
+    "description": "A simple EventSource / SSE (Server-Sent Events) client.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "emre can islambey",
+            "email": "eislambey@gmail.com"
+        }
+    ],
+    "keywords": [
+        "eventsource",
+        "sse",
+        "server-sent events",
+        "client"
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EventSource\\": "src/"
+        }
+    }
+}
