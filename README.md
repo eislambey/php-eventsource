@@ -39,7 +39,7 @@ Create new instance with the given url.
 Set a function that called when a message is received.
 
 ### connect(): void
-Connect to endpoint and receive messaages.
+Connect to endpoint and receive messages.
 
 ### abort(): void
 Abort the connection and stop receiving messages.
