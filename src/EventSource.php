@@ -34,12 +34,12 @@ class EventSource
         curl_close($ch);
     }
 
-    public function setCurlOptions(array $options)
+    public function setCurlOptions(array $options): void
     {
         $this->options = $options;
     }
 
-    public function abort()
+    public function abort(): void
     {
         $this->aborted = true;
     }
